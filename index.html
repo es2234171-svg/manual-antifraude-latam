@@ -143,7 +143,10 @@
     t=b.createElement(e); t.async=!0; t.src=v; s=b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);
   }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
   fbq('init', '1694127101616162');
-  fbq('track', 'PageView');
+  fbq('track', 'PageView', {
+    content_name: 'Manual Antifraude LATAM',
+    content_category: 'pagina_vendas_latam'
+  });
 </script>
 <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1694127101616162&ev=PageView&noscript=1"/></noscript>
 <!-- End Facebook Pixel Code -->
@@ -4272,6 +4275,10 @@
 
   function getTrafficData() {
     return {
+      mercado: "latam",
+      versao_pagina: "manual_antifraude_latam",
+      idioma_pagina: "espanhol_latam",
+      pais_foco: urlParams.get("pais") || "latam",
       pagina: window.location.pathname,
       origem_referencia: document.referrer || "direto_ou_desconhecido",
       utm_source: urlParams.get("utm_source") || "",
@@ -4294,7 +4301,7 @@
 
   trackEvent("pagina_carregada", {
     categoria_evento: "visita",
-    rotulo_evento: "Página de vendas carregada"
+    rotulo_evento: "Pagina de vendas LATAM carregada"
   });
 
   function appendTrackingToCheckoutLinks() {
@@ -4310,7 +4317,7 @@
         });
 
         if (!checkoutUrl.searchParams.get("src")) {
-          checkoutUrl.searchParams.set("src", urlParams.get("utm_content") || "pagina_vendas");
+          checkoutUrl.searchParams.set("src", urlParams.get("utm_content") || "pagina_vendas_latam");
         }
 
         link.href = checkoutUrl.toString();
@@ -4337,8 +4344,8 @@
         numero_destino: "5511959882918"
       });
       trackMetaEvent("Lead", {
-        content_name: "WhatsApp Manual Antifraude",
-        content_category: "lead_whatsapp"
+        content_name: "WhatsApp Manual Antifraude LATAM",
+        content_category: "lead_whatsapp_latam"
       });
       return;
     }
@@ -4351,10 +4358,10 @@
         checkout_url: href
       });
       trackMetaEvent("InitiateCheckout", {
-        content_name: "Manual Antifraude",
-        content_category: "checkout_hotmart",
-        currency: "EUR",
-        value: 9.90
+        content_name: "Manual Antifraude LATAM",
+        content_category: "checkout_hotmart_latam",
+        currency: "USD",
+        value: 12.90
       });
       return;
     }
@@ -4402,11 +4409,6 @@
   });
 })();
 </script></body></html>
-
-
-
-
-
 
 
 
