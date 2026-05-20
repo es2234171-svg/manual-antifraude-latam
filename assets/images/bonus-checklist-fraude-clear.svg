@@ -1,0 +1,58 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Checklist Antifraude Listo">
+  <defs>
+    <radialGradient id="bg2" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#281100"/>
+      <stop offset="50%" stop-color="#080808"/>
+      <stop offset="100%" stop-color="#000"/>
+    </radialGradient>
+    <filter id="glow2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="1 0 0 0 1 0 .36 0 0 .36 0 0 0 0 0 0 0 0 .85 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .title{font-family:'Space Grotesk','Sora',Arial,sans-serif;font-weight:900}
+      .body{font-family:'Sora',Arial,sans-serif;font-weight:700}
+      .mini{font-family:'Sora',Arial,sans-serif;font-weight:600}
+    </style>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg2)"/>
+  <circle cx="995" cy="226" r="185" fill="none" stroke="#ff6a00" stroke-width="6" opacity=".55" filter="url(#glow2)"/>
+  <circle cx="160" cy="570" r="210" fill="none" stroke="#ff6a00" stroke-width="4" opacity=".4" filter="url(#glow2)"/>
+  <rect x="86" y="78" width="1028" height="644" rx="34" fill="#080808" stroke="#ff6a00" stroke-width="3" filter="url(#glow2)"/>
+  <rect x="120" y="112" width="960" height="576" rx="24" fill="#101010" stroke="rgba(255,255,255,.16)"/>
+  <text x="600" y="178" text-anchor="middle" fill="#fff" class="title" font-size="52">CHECKLIST</text>
+  <text x="600" y="238" text-anchor="middle" fill="#ff6a00" class="title" font-size="62">ANTIFRAUDE LISTO</text>
+  <text x="600" y="278" text-anchor="middle" fill="#dddddd" class="mini" font-size="24">Preguntas, correos y pruebas para solicitar reembolso</text>
+  <g transform="translate(155 335)">
+    <rect width="290" height="280" rx="18" fill="#151515" stroke="rgba(255,106,0,.55)"/>
+    <text x="145" y="44" text-anchor="middle" fill="#ff6a00" class="title" font-size="24">10 COMPROBACIONES</text>
+    <g class="body" font-size="20" fill="#fff">
+      <text x="58" y="88">✓ Dominio y URL</text>
+      <text x="58" y="124">✓ Datos de la empresa</text>
+      <text x="58" y="160">✓ Reseñas y reclamaciones</text>
+      <text x="58" y="196">✓ Envío e impuestos</text>
+      <text x="58" y="232">✓ Pago seguro</text>
+    </g>
+  </g>
+  <g transform="translate(485 335)">
+    <rect width="250" height="280" rx="18" fill="#151515" stroke="rgba(255,106,0,.55)"/>
+    <text x="125" y="44" text-anchor="middle" fill="#ff6a00" class="title" font-size="24">PREGUNTAS</text>
+    <text x="28" y="92" fill="#fff" class="body" font-size="20">• ¿Producto original?</text>
+    <text x="28" y="132" fill="#fff" class="body" font-size="20">• ¿Hay garantía?</text>
+    <text x="28" y="172" fill="#fff" class="body" font-size="20">• ¿Cargos incluidos?</text>
+    <text x="28" y="212" fill="#fff" class="body" font-size="20">• ¿Plazo de envío?</text>
+  </g>
+  <g transform="translate(775 335)">
+    <rect width="270" height="280" rx="18" fill="#151515" stroke="rgba(255,106,0,.55)"/>
+    <text x="135" y="44" text-anchor="middle" fill="#ff6a00" class="title" font-size="24">PRUEBAS</text>
+    <text x="34" y="96" fill="#fff" class="body" font-size="20">✓ Captura de la oferta</text>
+    <text x="34" y="136" fill="#fff" class="body" font-size="20">✓ Mensajes guardados</text>
+    <text x="34" y="176" fill="#fff" class="body" font-size="20">✓ Justificante</text>
+    <text x="34" y="216" fill="#fff" class="body" font-size="20">✓ Código de seguimiento</text>
+  </g>
+  <rect x="245" y="642" width="710" height="44" rx="22" fill="rgba(255,106,0,.14)" stroke="rgba(255,106,0,.45)"/>
+  <text x="600" y="672" text-anchor="middle" fill="#fff" class="body" font-size="22">Todo listo para revisar antes de introducir la tarjeta</text>
+</svg>
+
+

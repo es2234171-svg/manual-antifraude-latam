@@ -1,0 +1,58 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Manual Antifraude Completo">
+  <defs>
+    <radialGradient id="bg1" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#2a1200"/>
+      <stop offset="45%" stop-color="#080808"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="orange1" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#ff5a00"/>
+      <stop offset="50%" stop-color="#ff9a24"/>
+      <stop offset="100%" stop-color="#ff5a00"/>
+    </linearGradient>
+    <filter id="glow1" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 1  0 .35 0 0 .35  0 0 0 0 0  0 0 0 .8 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .title{font-family:'Space Grotesk','Sora',Arial,sans-serif;font-weight:900;letter-spacing:.5px}
+      .body{font-family:'Sora',Arial,sans-serif;font-weight:700}
+      .small{font-family:'Sora',Arial,sans-serif;font-weight:600}
+    </style>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg1)"/>
+  <path d="M108 428C228 205 429 158 592 265c160 105 316 33 498-110" fill="none" stroke="#ff6a00" stroke-width="6" opacity=".7" filter="url(#glow1)"/>
+  <path d="M80 558C274 423 429 462 579 572c165 121 326 110 548-48" fill="none" stroke="#ff8a00" stroke-width="3" opacity=".55" filter="url(#glow1)"/>
+  <rect x="92" y="78" width="1016" height="644" rx="34" fill="#080808" stroke="#ff6a00" stroke-width="3" filter="url(#glow1)"/>
+  <rect x="120" y="106" width="960" height="588" rx="24" fill="#101010" stroke="rgba(255,255,255,.16)"/>
+  <text x="600" y="185" text-anchor="middle" fill="#fff" class="title" font-size="54">MANUAL</text>
+  <text x="600" y="252" text-anchor="middle" fill="url(#orange1)" class="title" font-size="76">ANTIFRAUDE</text>
+  <text x="600" y="306" text-anchor="middle" fill="#fff" class="title" font-size="46">COMPLETO</text>
+  <text x="600" y="350" text-anchor="middle" fill="#dddddd" class="small" font-size="24">La guía práctica para comprar online con seguridad</text>
+  <g transform="translate(145 405)">
+    <rect width="276" height="190" rx="18" fill="#151515" stroke="rgba(255,106,0,.55)"/>
+    <text x="138" y="58" text-anchor="middle" fill="#ff6a00" class="title" font-size="27">DETECTA</text>
+    <text x="138" y="92" text-anchor="middle" fill="#fff" class="title" font-size="27">TIENDAS FALSAS</text>
+    <text x="138" y="139" text-anchor="middle" fill="#d9d9d9" class="body" font-size="19">Reconoce señales</text>
+    <text x="138" y="166" text-anchor="middle" fill="#d9d9d9" class="body" font-size="19">antes de pagar</text>
+  </g>
+  <g transform="translate(462 405)">
+    <rect width="276" height="190" rx="18" fill="#151515" stroke="rgba(255,106,0,.55)"/>
+    <text x="138" y="58" text-anchor="middle" fill="#ff6a00" class="title" font-size="27">CALCULA</text>
+    <text x="138" y="92" text-anchor="middle" fill="#fff" class="title" font-size="27">EL COSTE REAL</text>
+    <text x="138" y="139" text-anchor="middle" fill="#d9d9d9" class="body" font-size="19">IVA, envío y cargos</text>
+    <text x="138" y="166" text-anchor="middle" fill="#d9d9d9" class="body" font-size="19">y aduana incluidos</text>
+  </g>
+  <g transform="translate(779 405)">
+    <rect width="276" height="190" rx="18" fill="#151515" stroke="rgba(255,106,0,.55)"/>
+    <text x="138" y="58" text-anchor="middle" fill="#ff6a00" class="title" font-size="27">COMPRA</text>
+    <text x="138" y="92" text-anchor="middle" fill="#fff" class="title" font-size="27">CON SEGURIDAD</text>
+    <text x="138" y="139" text-anchor="middle" fill="#d9d9d9" class="body" font-size="19">Evita sorpresas</text>
+    <text x="138" y="166" text-anchor="middle" fill="#d9d9d9" class="body" font-size="19">y protege tu dinero</text>
+  </g>
+  <rect x="195" y="634" width="810" height="42" rx="21" fill="rgba(255,106,0,.13)" stroke="rgba(255,106,0,.4)"/>
+  <text x="600" y="663" text-anchor="middle" fill="#fff" class="body" font-size="22">Conocimiento y protección antes de finalizar cualquier compra</text>
+</svg>
+
+
